@@ -1,6 +1,8 @@
-
 <!DOCTYPE html>
 <html>
+<head>
+    <title>User Signup Page</title>
+</head>
 <body>
     <h1>User Signup Page</h1>
 
@@ -38,8 +40,10 @@
     <pre><code>gcc -o signup signup.c
 ./signup</code></pre>
 
-    <h2 id="contributing>
-    </body>
+    <h2 id="contributing">Contributing</h2>
+    <p>Contributions to this project are welcome! If you have ideas for improvements or bug fixes, feel free to fork this repository, make your changes, and submit a pull request.</p>
+    <p>Please ensure that your code follows the established coding style and conventions.</p>
+</body>
 </html>
 
 
