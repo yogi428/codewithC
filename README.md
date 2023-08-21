@@ -6,7 +6,7 @@
 <body>
     <h1>User Signup Page</h1>
 
-    <p>This program implements a simple user signup process where users can choose a username and password. It checks if the chosen username is available, saves the user's information to a file, and creates a user-specific file for additional information.</p>
+    <p>This program implements a simple user signup process where users can choose a username and password. It checks if the chosen username is available, saves the user's information to a file, and creates a user specific file for additional information.</p>
 
     <h2>Table of Contents</h2>
     <ul>
