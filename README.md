@@ -45,13 +45,9 @@
     <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
 
     <p>Feel free to customize this README template further with more information about your project, usage examples, screenshots, or any other relevant details you'd like to share. Good luck with your project!</p>
-</body>
-</html>
 
 
-<!DOCTYPE html>
-<html>
-<body>
+
     <h1>Snake and Ladder Game</h1>
 <p>Welcome to the Snake and Ladder Game! This project implements a simple text-based version of the classic Snake and Ladder game in C.</p>
 
