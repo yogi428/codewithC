@@ -39,6 +39,8 @@
 ./signup</code></pre>
 
     <h2 id="contributing>
+    </body>
+</html>
 
 
 <!DOCTYPE html>
