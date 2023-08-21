@@ -38,7 +38,7 @@
     <pre><code>gcc -o signup signup.c
 ./signup</code></pre>
 
-    <h2 id="contributing
+    <h2 id="contributing>
 
 
 <!DOCTYPE html>
