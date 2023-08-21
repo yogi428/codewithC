@@ -4,45 +4,46 @@
 <body>
     <h1>User Signup System</h1>
 
-    <p>A simple user signup system implemented in C. This program allows users to create accounts by choosing unique usernames and passwords. It includes functionality to check for username availability, save user details to a file, and create user-specific information files.</p>
+        <p>A simple user signup system implemented in C. This program allows users to create accounts by choosing unique usernames and passwords. It includes functionality to check for username availability, save user details to a file, and create user-specific information files.</p>
 
-    <h2>Features</h2>
-    <ul>
-        <li>Command-line interface for user account creation.</li>
-        <li>Username availability check before account creation.</li>
-        <li>Password input without displaying it on the screen.</li>
-        <li>User details stored in a file named "users.txt".</li>
-        <li>Additional user information can be stored in separate files named "{username}.txt".</li>
-    </ul>
+        <h2>Features</h2>
+        <ul>
+            <li>Command-line interface for user account creation.</li>
+            <li>Username availability check before account creation.</li>
+            <li>Password input without displaying it on the screen.</li>
+            <li>User details stored in a file named "users.txt".</li>
+            <li>Additional user information can be stored in separate files named "{username}.txt".</li>
+        </ul>
 
-    <h2>Getting Started</h2>
-    <ol>
-        <li>Clone the repository to your local machine:</li>
-    </ol>
+        <h2>Getting Started</h2>
+        <ol>
+            <li>Clone the repository to your local machine:</li>
+        </ol>
 
-    <pre><code>git clone https://github.com/your-username/user-signup-system.git</code></pre>
+        <pre><code>git clone https://github.com/your-username/user-signup-system.git</code></pre>
 
-    <ol start="2">
-        <li>Compile the source code using a C compiler:</li>
-    </ol>
+        <ol start="2">
+            <li>Compile the source code using a C compiler:</li>
+        </ol>
 
-    <pre><code>gcc main.c -o signup</code></pre>
+        <pre><code>gcc main.c -o signup</code></pre>
 
-    <ol start="3">
-        <li>Run the compiled program:</li>
-    </ol>
+        <ol start="3">
+            <li>Run the compiled program:</li>
+        </ol>
 
-    <pre><code>./signup</code></pre>
+        <pre><code>./signup</code></pre>
 
-    <p>Follow the on-screen instructions to create a new account.</p>
+        <p>Follow the on-screen instructions to create a new account.</p>
 
-    <h2>Contributions</h2>
-    <p>Contributions are welcome! If you find any issues or improvements, please open a pull request or an issue on the <a href="https://github.com/your-username/user-signup-system">GitHub repository</a>.</p>
+        <h2>Contributions</h2>
+        <p>Contributions are welcome! If you find any issues or improvements, please open a pull request or an issue on the <a href="https://github.com/your-username/user-signup-system">GitHub repository</a>.</p>
 
-    <h2>License</h2>
-    <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
+        <h2>License</h2>
+        <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for details.</p>
 
-    <p>Feel free to customize this README template further with more information about your project, usage examples, screenshots, or any other relevant details you'd like to share. Good luck with your project!</p>
+        <p>Feel free to customize this README template further with more information about your project, usage examples, screenshots, or any other relevant details you'd like to share. Good luck with your project!</p>
+
 
 
 
