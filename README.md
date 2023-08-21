@@ -41,5 +41,7 @@
 <p>Contributions to this project are welcome! If you have ideas for improvements or bug fixes, feel free to fork this repository, make your changes, and submit a pull request.</p>
 <p>Please ensure that your code follows the established coding style and conventions.</p>
 
+<img src="https://github.com/yogi428/codewithC/blob/main/WhatsApp%20Image%202023-07-31%20at%2021.08.04.jpg"></img>
+
 </body>
 </html>
