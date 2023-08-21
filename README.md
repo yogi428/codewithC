@@ -1,10 +1,9 @@
 
+<!DOCTYPE html>
 <html>
-<head>
 
-</head>
 <body>
-    <h1>User Signup Page</h1>
+<h1>User Signup Page</h1>
 
     <p>This program implements a simple user signup process where users can choose a username and password. It checks if the chosen username is available, saves the user's information to a file, and creates a user specific file for additional information.</p>
 
@@ -43,15 +42,7 @@
     <h2 id="contributing">Contributing</h2>
     <p>Contributions to this project are welcome! If you have ideas for improvements or bug fixes, feel free to fork this repository, make your changes, and submit a pull request.</p>
     <p>Please ensure that your code follows the established coding style and conventions.</p>
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html>
-
-<body>
-
+    
 <h1>Snake and Ladder Game</h1>
 <p>Welcome to the Snake and Ladder Game! This project implements a simple text-based version of the classic Snake and Ladder game in C.</p>
 
