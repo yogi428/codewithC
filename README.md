@@ -9,7 +9,6 @@
 <ul>
     <li><a href="#introduction">Introduction</a></li>
     <li><a href="#rules">Rules</a></li>
-    <li><a href="#getting-started">Getting Started</a></li>
     <li><a href="#how-to-play">How to Play</a></li>
     <li><a href="#contributing">Contributing</a></li>
 </ul>
