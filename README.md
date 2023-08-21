@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>User Signup System</title>
-</head>
+
 <body>
     <h1>User Signup System</h1>
 
@@ -48,7 +46,7 @@
 
 
 
-    <h1>Snake and Ladder Game</h1>
+    <h2>Snake and Ladder Game</h2>
 <p>Welcome to the Snake and Ladder Game! This project implements a simple text-based version of the classic Snake and Ladder game in C.</p>
 
 <h2>Table of Contents</h2>
