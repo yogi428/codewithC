@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Snake and Ladder Game Documentation</title>
-</head>
+
 <body>
 
 <h1>Snake and Ladder Game</h1>
