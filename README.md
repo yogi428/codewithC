@@ -1,7 +1,7 @@
-<!DOCTYPE html>
+
 <html>
 <head>
-    <title>User Signup Page</title>
+
 </head>
 <body>
     <h1>User Signup Page</h1>
