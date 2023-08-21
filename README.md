@@ -1,3 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <h1>User Signup Page</h1>
+
+    <p>This program implements a simple user signup process where users can choose a username and password. It checks if the chosen username is available, saves the user's information to a file, and creates a user-specific file for additional information.</p>
+
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#usage">Usage</a></li>
+        <li><a href="#contributing">Contributing</a></li>
+    </ul>
+
+    <h2 id="overview">Overview</h2>
+    <p>The <code>signup.c</code> program provides a user-friendly way for users to sign up with a username and password. It ensures that the chosen username is unique by checking against existing usernames in the "users.txt" file. If the chosen username is available, the user's information is saved in the same file, and a user-specific file is created for any additional information.</p>
+
+    <h2 id="how-it-works">How It Works</h2>
+    <ol>
+        <li>Users are prompted to choose a username.</li>
+        <li>The program checks if the chosen username is already taken by reading the "users.txt" file.</li>
+        <li>If the username is taken, users are prompted to choose a different username.</li>
+        <li>Users are then prompted to choose a password.</li>
+        <li>The program saves the user's username and password to the "users.txt" file.</li>
+        <li>A user-specific file is created to store additional information if needed.</li>
+    </ol>
+
+    <h2 id="usage">Usage</h2>
+    <ol>
+        <li>Compile and run the program using a C compiler.</li>
+        <li>Follow the prompts to choose a username and password.</li>
+        <li>If the username is available and the user is successfully saved, a confirmation message will be displayed.</li>
+        <li>If the user-specific file is created, a confirmation message will be displayed.</li>
+    </ol>
+
+    <pre><code>gcc -o signup signup.c
+./signup</code></pre>
+
+    <h2 id="contributing
+
+
 <!DOCTYPE html>
 <html>
 
