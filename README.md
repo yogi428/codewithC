@@ -29,17 +29,6 @@
     <li>Snakes and ladders are present on the board, affecting player positions.</li>
 </ul>
 
-<h2 id="getting-started">Getting Started</h2>
-<p>To run the Snake and Ladder Game, follow these steps:</p>
-<ol>
-    <li>Make sure you have a C compiler installed on your system, such as GCC.</li>
-    <li>Clone this repository to your local machine.</li>
-    <li>Open a terminal and navigate to the project directory.</li>
-    <li>Compile the code using the following command:</li>
-</ol>
-<pre><code>gcc -o snake_and_ladder snake_and_ladder.c</code></pre>
-<p>Run the compiled executable:</p>
-<pre><code>./snake_and_ladder</code></pre>
 
 <h2 id="how-to-play">How to Play</h2>
 <ol>
