@@ -113,18 +113,18 @@ int main() {
         int diceValue = rollDice();
         printf("Player %d rolled a %d\n", currentPlayerIndex + 1, diceValue);
 
-        // Move the player based on the dice roll
+                                                        // Move the player based on the dice roll
         int currentPlayerPosition = playerPositions[currentPlayerIndex];
         int newPosition = movePlayer(currentPlayerPosition, diceValue);
         playerPositions[currentPlayerIndex] = newPosition;
 
-        // Check if the player wins
+                    
         if (newPosition == BOARD_SIZE) {
             printf("Player %d wins!\n", currentPlayerIndex + 1);
             break;
         }
 
-        // Move to the next player
+                     // Move to the next player
         currentPlayerIndex = (currentPlayerIndex + 1) % NUM_PLAYERS;
 
       
