@@ -21,11 +21,11 @@
         <ol start="2">
             <li>Compile the source code using a C compiler:</li>
         </ol>
-        <pre><code>gcc main.c -o signup</code></pre>
+        <pre><code>gcc main.c -o signuppage</code></pre>
         <ol start="3">
             <li>Run the compiled program:</li>
         </ol>
-        <pre><code>./signup</code></pre>
+        <pre><code>./signuppage</code></pre>
         <p>Follow the on-screen instructions to create a new account.</p>
         <h2>Contributions</h2>
         <p>Contributions are welcome! If you find any issues or improvements, please open a pull request or an issue on the <a href="https://github.com/your-username/user-signup-system">GitHub repository</a>.</p>
