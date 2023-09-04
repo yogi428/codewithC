@@ -8,9 +8,7 @@
 #define NUM_SNAKES 5
 #define NUM_LADDERS 5
 
-// ... (Rest of the code from the Snake and Ladder game snippet)
 
-// ... (Rest of the code from the User Signup page snippet)
 
 int main() {
     srand(time(NULL)); // Seed the random number generator with the current time
@@ -53,7 +51,7 @@ int main() {
         return 1;
     }
 
-    // Create a file for the new user to store additional information (if needed)
+// Create a file for the new user to store additional information (if needed)
     if (createUserFile(username)) {
         printf("User file created successfully.\n");
     } else {
