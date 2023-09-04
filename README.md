@@ -65,6 +65,50 @@
         <p>Contributions to this project are welcome! If you have ideas for improvements or bug fixes, feel free to fork this repository, make your changes, and submit a pull request.</p>
         <p>Please ensure that your code follows the established coding style and conventions.</p>
         <img src="https://github.com/yogi428/codewithC/blob/main/WhatsApp%20Image%202023-07-31%20at%2021.08.04.jpg" alt="Snake and Ladder Game Screenshot">
+        <p>
+Snake and Ladder Game
+       └─── main()
+             ├─── Initialize Constants and Arrays
+             │     ├─── BOARD_SIZE
+             │     ├─── NUM_PLAYERS
+             │     ├─── NUM_SNAKES
+             │     ├─── NUM_LADDERS
+             │     ├─── snakes[NUM_SNAKES][2]
+             │     └─── ladders[NUM_LADDERS][2]
+             │
+             ├─── srand(time(NULL))
+             │
+             ├─── Initialize playerPositions[NUM_PLAYERS]
+             │
+             ├─── Display Welcome Message
+             │
+             ├─── currentPlayerIndex = 0
+             │
+             ├─── Game Loop
+             │     ├─── Display Current Player Positions
+             │     │
+             │     ├─── Display Game Board (displayBoard())
+             │     │     ├─── Loop to Print Grid
+             │     │     └─── Check Player Positions
+             │     │
+             │     ├─── Prompt Player to Roll Dice
+             │     │
+             │     ├─── Roll Dice (rollDice())
+             │     │
+             │     ├─── Move Player (movePlayer())
+             │     │     ├─── Check if New Position is > BOARD_SIZE
+             │     │     ├─── Check for Snakes
+             │     │     ├─── Check for Ladders
+             │     │
+             │     ├─── Check if Player Wins
+             │     │
+             │     ├─── Move to Next Player
+             │     │
+             │     ├─── Add Delay (not implemented)
+             │     │
+             │     ├─── Check for Game End (not implemented)
+             │     │
+             └─── Exit</p>
     </section>
   </body>
 </html>
