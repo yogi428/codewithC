@@ -7,7 +7,7 @@
 #define NUM_SNAKES 5
 #define NUM_LADDERS 5
 
-// Define the positions of snakes and ladders
+
 int snakes[NUM_SNAKES][2] = {
     {16, 6},
     {47, 26},
@@ -24,7 +24,7 @@ int ladders[NUM_LADDERS][2] = {
     {40, 59}
 };
 
-// Function to roll a dice and get a random number between 1 and 6
+
 int rollDice() {
     return rand() % 6 + 1;
 }
@@ -86,24 +86,24 @@ void displayBoard(int playerPositions[]) {
 }
 
 int main() {
-    srand(time(NULL)); // Seed the random number generator with the current time
+    srand(time(NULL));                                                                 // Seed the random number generator with the current time
 
     int playerPositions[NUM_PLAYERS];
     for (int i = 0; i < NUM_PLAYERS; i++) {
-        playerPositions[i] = 1; // Initialize all players at position 1
+        playerPositions[i] = 1;                                                     // Initialize all players at position 1
     }
 
     printf("Welcome to the Snake and Ladder Game!\n");
 
     int currentPlayerIndex = 0;
     while (1) {
-        // Display the current board state for all players
+                                                                                // Display the current board state for all players
         printf("\nCurrent Positions:\n");
         for (int i = 0; i < NUM_PLAYERS; i++) {
             printf("Player %d: %d\n", i + 1, playerPositions[i]);
         }
 
-        // Display the board with player positions
+     // Display the board with player positions
         displayBoard(playerPositions);
 
         // Player rolls the dice
@@ -127,12 +127,7 @@ int main() {
         // Move to the next player
         currentPlayerIndex = (currentPlayerIndex + 1) % NUM_PLAYERS;
 
-        // Add a delay between each player's turn for better visibility
-        // You can use the 'sleep' function from time.h to introduce a delay
-
-        // Implement a mechanism to exit the loop if all players finish the game
-        // For example, if all players reach position 100, you can break the loop
-    }
+      
 
     return 0;
 }
